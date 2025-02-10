@@ -38,8 +38,6 @@ jQuery(document).ready(function () {
                  chkboxs: chkboxs,
                  post_ddp_val:post_ddp_val,
                  page: currentPage,
-                 
-
             },
             success: function (response) {
                 jQuery('.posts-main').hide();
@@ -64,8 +62,6 @@ jQuery(document).ready(function () {
         onchage_post_ajax();
         checkbox_change_func();
     });
-
     onchage_post_ajax();
     checkbox_change_func();
-
 });
